@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f7f9fc;
+      color: #333;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #2c3e50;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    #about {
+      text-align: center;
+    }
+
+    #about img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .skill, .project {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 250px;
+      text-align: center;
+    }
+
+    .project img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    #resume {
+      text-align: center;
+    }
+
+    #resume a {
+      display: inline-block;
+      margin-top: 10px;
+      background: #2c3e50;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    #contact p {
+      font-size: 1.1rem;
+      text-align: center;
+      margin: 8px 0;
+    }
+
+    footer {
+      background: #1a252f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    footer a {
+      color: #4db8ff;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      .skills, .projects {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Yaswanth Baskar</h1>
+    <p>Web Developer | Passionate Learner | Creative Thinker</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="C:\Users\Yaswanth\Downloads\WhatsApp Image 2025-07-03 at 22.06.41 (1).jpeg" alt="Your Photo" />
+    <p>Hi! I'm Yaswanth, an aspiring web developer with a passion for building beautiful, responsive websites. I enjoy learning by creating and love turning ideas into digital reality.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">HTML5</div>
+      <div class="skill">CSS3</div>
+      <div class="skill">JavaScript (Basics)</div>
+      <div class="skill">Responsive Design</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="https://storage.googleapis.com/website-production/uploads/2023/07/homepage-vs-landing-page-difference-770x384.webp" alt="Landing Page">
+        <h3>Travel Landing Page</h3>
+        <p>A responsive landing page built during my CodeSoft internship using HTML & CSS.</p>
+      </div>
+      <div class="project">
+        <img src="https://cdn.prod.website-files.com/63f8ca18cae2585db28fd75b/63f8ca18cae2581fd38fd87a_create-interactive-website-calculator-on-webflow.png" alt="Calculator">
+        <h3>Calculator App</h3>
+        <p>A basic calculator built with HTML, CSS Grid, and JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Want to know more? Download my resume below.</p>
+    <a href="resume.pdf" download>Download Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: yaswanth@example.com</p>
+    <p>Phone: +91 9876543210</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Yaswanth Baskar | All Rights Reserved</p>
+    <p><a href="#">PORTFOLIO FOR DEMO CLICK HERE</a></p>
+  </footer>
+
+</body>
+</html>
